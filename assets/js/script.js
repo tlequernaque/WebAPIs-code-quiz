@@ -1,15 +1,7 @@
-var correctAnswer1 = document.querySelector("#correct1");
-var incorrecAnswer1 = document.querySelector("#incorrect1");
+let startButton = document.getElementById("start-button");
 
-function correctAnswer1(){
-    if()
+startButton.addEventListener("click", startTheQuiz);
+
+function startTheQuiz (){
+    console.log ("inside start the quiz");
 }
-
-
-
-
-/*var question1ans= 
-
-if (!== "Strings" &&  !== "alerts" &&  !== "Numbers") {
-    ("incorrect");
-    */

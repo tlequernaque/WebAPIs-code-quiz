@@ -10,7 +10,8 @@
 </head>
 <body>
     <nav class="Navbar">
-        <div>View Highscore</div>
+        <div class="hs">  <a href="hs.html"> View Highscore</a></div>
+        <div class="time">remaining time: <span id="timer">150</span></div>
     </nav>
     <main>
         <section class="Startpage">
@@ -18,15 +19,16 @@
             <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds! </p>
             <button>Start Quiz</button>
         </section>
-        
+
+        <section id="questions-section" class="hide">
         <section class="Question1">
             <div class="Container">
                 <h1>Commonly used data types DO NOT Include:</h1>
                 <div class="AnsContainer">
-                    <button>1. Strings</button>
-                    <button>2. Booleans</button>
-                    <button>3. Alerts</button>
-                    <button>4. Numbers</button>
+                    <button id="incorrect1">1. Strings</button>
+                    <button id="correct1">2. Booleans</button>
+                    <button id="incorrect1">3. Alerts</button>
+                    <button id="incorrect1">4. Numbers</button>
                 </div>
             </div>        
         </section>
@@ -77,8 +79,8 @@
                     <button>4. Console.log</button>
                 </div>
             </div>        
-        </section>
-
+        </section> 
+        </section> 
     </main>
 </body>
 </html>

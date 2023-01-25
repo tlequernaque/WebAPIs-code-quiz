@@ -22,10 +22,19 @@ function startTheQuiz (){
 }
 
 function oneSecondHandler (){
-    // to be completed
+    // to be complete
+    timeRemaining --;
+    timeEl.textContent = timeRemaining;
+
+    if(timeRemaining <= 0){
+        endQuiz();
+    }
 }
 
 function showQuestion (){
     // to be completed
 }
 
+function endQuiz (){
+    // to be completed
+}

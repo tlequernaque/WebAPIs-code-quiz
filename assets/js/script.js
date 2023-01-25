@@ -18,6 +18,11 @@ function startTheQuiz (){
 
     timerId = setInterval(oneSecondHandler, 1000);
     timeEl.textContent = timeRemaining;
+
+    question2.setAttribute("class", "hide");
+    question3.setAttribute("class", "hide");
+    question4.setAttribute("class", "hide");
+    question5.setAttribute("class", "hide");
     showQuestion ();
 }
 

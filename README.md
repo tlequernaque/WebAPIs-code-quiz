@@ -1,7 +1,8 @@
 # WebAPIs-code-quiz
 
 ## Description
-This webpage JavaScript code was incomplete and the generate password button was not working. New code was added, to jascript, that included making a user choose the lenght of the password. The user can also choose whether they want numbers, special characters, uppercase characters, and lowercase characters. All passwords are generated at random accordingly to what character choices the user wants included. After the choices are made the password will be displayed on the screen. 
+This webpage was creatated as a study word quiz. As you're taking the quiz you have a timer that shortens everytime you get a wrong answer. After you're finished the loads and asks you for your name to store the score. The page holds a record of the high scores for future use. 
+
 
 ## Links
 
@@ -9,7 +10,7 @@ This webpage JavaScript code was incomplete and the generate password button was
 
 ## Screenshots
 
-![](./Images/password%20generator.png)
+![](./images/WebAPIs-code-quiz_index.html.png)
 
 ## Available Commands
 
